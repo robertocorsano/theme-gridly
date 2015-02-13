@@ -138,7 +138,7 @@
               {% endif %}
               {% if post.content|striptags|wordcount > 0 %}
               <p>{{ post.content|striptags|truncate(200) }}</p>
-              <p class="post-link"><a href="{{ post.permalink }}">View more &rarr;</a></p>
+              <p class="post-link"><a href="{{ post.permalink }}">Approfondisci &rarr;</a></p>
               {% endif %}
             </div>
           </article>
@@ -146,8 +146,8 @@
         </section>
         {% if not is_tag %}
         <div class="pagination">
-          {% if pagination.prev %}<a href="{{ pagination.prev }}" class="post-prev">&larr; View Previous Posts</a>{% endif %}
-          {% if pagination.next %}<a href="{{ pagination.next }}" class="post-next">View More Posts &rarr;</a>{% endif %}
+          {% if pagination.prev %}<a href="{{ pagination.prev }}" class="post-prev">&larr; Precedente Posts</a>{% endif %}
+          {% if pagination.next %}<a href="{{ pagination.next }}" class="post-next">Prossima Posts &rarr;</a>{% endif %}
         </div>
         {% endif %}
         {% else %}
