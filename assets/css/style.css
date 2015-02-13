@@ -1871,15 +1871,15 @@ hr.large {
 }
 #nav ul li {
   float: left;
-  font-size: 12px;
-  font-size: 22px;
+  font-size: 18px;
+  font-size: 18px;
 }
 #nav ul li a {
   display: block;
   margin-top: 16px;
   margin-top: 1rem;
   margin-right: 10px;
-  margin-right: 0.625rem;
+  margin-right: 36px;
   text-decoration: none;
 }
 #nav ul li a:after {
