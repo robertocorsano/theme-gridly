@@ -1872,7 +1872,7 @@ hr.large {
 #nav ul li {
   float: left;
   font-size: 12px;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 #nav ul li a {
   display: block;
